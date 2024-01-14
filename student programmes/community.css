@@ -1,0 +1,47 @@
+
+
+.Community {
+    background-color: #ECDED4;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;}
+
+.Community h1,
+.Community p,
+.Community h2 {
+    margin-bottom: 10px;
+}
+
+
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-grid img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 auto;
+}
+
+/* Additional style for c1 image */
+.image-grid img:first-child {
+    grid-column: span 3; /* Make c1 span all three columns */
+    grid-row: span 2; 
+    margin-bottom: 10px;
+}
+
+
+

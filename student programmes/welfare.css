@@ -1,0 +1,34 @@
+.body2 {
+    background-color: #ECDED4;
+    color: #000000;
+}
+
+.welfare {
+    background-color: #ECDED4;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center; /* Center the content */
+}
+
+.welfare h1 {
+    color: #040505; /* Set a different color for the h1 in the welfare section */
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Adjusted gap */
+    justify-content: center;
+}
+
+.image-grid img {
+    width: 80%; /* Adjusted image width */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 auto;
+}
