@@ -1,0 +1,238 @@
+html {
+    background: url(maryamm.png) ;
+    background-size: cover;
+  }
+
+  body
+  {
+
+    margin: 0;
+    padding: 0;  
+  }
+
+  .container {
+    max-width: 100%;
+    margin: 0 ;
+    padding: 0;
+}
+
+/* Apply styles to the header */
+header {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the Mahallah Maryam logo */
+header img {
+    width: 120px; /* Adjust the width as needed */
+}
+
+/* Apply styles to the IIUM logo */
+header img:nth-child(2) {
+    width: 450px; /* Adjust the width as needed */
+    margin-left: 10px; /* Adjust the margin as needed */}
+
+/* Container for the navigation bar */
+.nav-container {
+    overflow: hidden;
+    padding: 10px; /* Padding for the box */
+   border-top: 2px solid #333; /* Border at the top of the container */
+    border-bottom: 2px solid #333; /* Border at the bottom of the container */
+    width: 100%;
+}
+
+/* Style the navigation list */
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust the spacing between list items */
+}
+
+.nav-container a {
+    color: #333; /* Default text color */
+    text-decoration: none;
+    padding: 10px 16px;
+    transition: color 0.3s ease; /* Smooth color transition effect */
+}
+
+/* Change the text color on hover */
+.nav-container a:hover {
+    color: #fff; /* Text color on hover */
+}
+
+/* Change the text color when active (clicked) */
+.nav-container a.active {
+    color: rgb(164, 131, 85); /* Text color when active */
+} 
+
+/* Dropdown styles */
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(164, 131, 85);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ac957f;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.text-body {
+    text-align: center;
+    z-index: 1;
+    background: url('maryam2.jpg') center/contain no-repeat fixed;
+    color: white;
+    padding: 40px; /* Adjusted padding for reduced height */
+    margin-top: 20px;
+    margin-bottom: 20px; /* Adjusted margin-bottom for reduced space */
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-body a {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    display: inline-block;
+    color: black;
+}
+
+.text-body a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: 2px solid white;
+    z-index: -1;
+}
+
+.text-body a:first-child {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    display: inline-block;
+    color: black;
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px; /* Adjust letter spacing */
+    font-style: italic; /* Apply italic style */
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white; /* Add a shadow to simulate a stroke */
+ 
+}
+
+.text-body a:nth-child(2) {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 0 0 10px #ebcf3d, 0 0 20px #ffa9f9;
+    display: block;
+}
+.text-body a:last-child {
+    background: linear-gradient(90deg, #ebdf78, #e477e4);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 60px; /* Adjust the padding to control the length and width of the box */
+    border: 3px dashed black; /* Adjust the width of the dashed border */
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.info {
+    background: linear-gradient(90deg, #5d7afd, #ff66c4);
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.info a {
+    color: black; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Align items at the start (top) */
+    margin-bottom: 20px; /* Adjust the margin-bottom to create space between the boxes and the footer */
+}
+
+.box {
+    background :linear-gradient(90deg, #cea760, #ec6ce3);
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 200px; /* Adjust the width of the box */
+    height: 400px; /* Adjust the height of the box */
+    text-align: center;
+    margin: 0 10px;
+    margin-bottom: 20px; /* Adjust the margin-bottom to create space between the boxes */
+    position: relative; /* Added relative positioning to the box */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Arrange items with space between them */
+}
+
+.box img {
+    max-width: 100%;
+    height: 50%; /* Allow the image to adjust its height */
+    margin-bottom: 10px;
+}
+
+
+.see-more {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    border: 2px solid #fff;
+    padding: 8px 20px; /* Adjust padding for button size */
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Additional styles for hover effect */
+.see-more:hover {
+    background-color: #fff; /* Background color on hover */
+    color: black; /* Text color on hover */
+}
+
+footer {
+    display: block;
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
+}
+
+
